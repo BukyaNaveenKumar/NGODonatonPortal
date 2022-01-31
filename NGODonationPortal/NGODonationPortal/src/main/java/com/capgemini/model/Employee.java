@@ -1,5 +1,6 @@
 package com.capgemini.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
@@ -13,7 +14,7 @@ private String employeeName;
 private String email;
 private String phone;
 
-@OneToOne
+@OneToOne(cascade = {CascadeType.ALL})
 private Address address;
 
 private String username;
