@@ -10,6 +10,7 @@ public class NgoDonationPortalApplication {
 		SpringApplication.run(NgoDonationPortalApplication.class, args);
 		System.out.println("Success");
 		System.out.println("Success1");
+		System.out.println("Success2");
 	}
 
 }
